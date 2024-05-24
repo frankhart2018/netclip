@@ -1,0 +1,4 @@
+#!/bin/bash
+pbcopy
+file=$HOME/netclip
+pbpaste > $file

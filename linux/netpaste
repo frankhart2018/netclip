@@ -1,0 +1,5 @@
+#!/bin/bash
+HOST=$1
+scp $HOST:~/netclip .
+cat netclip | xsel --clipboard --input
+rm netclip

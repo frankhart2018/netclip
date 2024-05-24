@@ -1,0 +1,4 @@
+#!/bin/bash
+xsel --clipboard --input
+file=$HOME/netclip
+xsel --clipboard --output > $file
